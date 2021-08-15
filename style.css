@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
+
+body {
+  text-align: center;
+  max-width: 1300px;
+  margin: 0rem auto;
+  background-color: antiquewhite;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+h1 {
+  font-size: 2.1rem;
+  color: #1f2937;
+  padding: 2rem 1rem;
+}
+#main-div {
+  border-radius: 15px;
+  padding: 2rem 2rem;
+  margin: 5rem auto;
+  background-color: #a78bfa;
+  max-width: 760px;
+  font-size: 1.5rem;
+}
+#bday-input {
+  margin: 0rem auto;
+  display: block;
+  height: 2.5rem;
+  text-align: center;
+  border-radius: 0.8rem;
+  width: 10rem;
+  border: solid brown 2.5px;
+  font-size: large;
+}
+#show-btn {
+  margin: 2rem auto;
+  display: block;
+  height: 2.5rem;
+  text-align: center;
+  border-radius: 0.8rem;
+  width: 6rem;
+  border: solid brown 3px;
+  font-size: large;
+  background-color: #6d28d9;
+  color: black;
+  font-weight: bold;
+}
+#result {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 2rem 2rem;
+  display: contents;
+  margin-top: 1rem;
+}
