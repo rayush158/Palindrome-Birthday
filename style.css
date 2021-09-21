@@ -4,7 +4,7 @@ body {
   text-align: center;
   max-width: 1300px;
   margin: 0rem auto;
-  background-color: antiquewhite;
+  background-color: wheat;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
 }
@@ -18,7 +18,7 @@ h1 {
   padding: 2rem 2rem;
   margin: 5rem auto;
   background-color: #a78bfa;
-  max-width: 760px;
+  max-width: 950px;
   font-size: 1.5rem;
 }
 #bday-input {
@@ -26,28 +26,26 @@ h1 {
   display: block;
   height: 2.5rem;
   text-align: center;
-  border-radius: 0.8rem;
+  border-radius: 0.5rem;
   width: 10rem;
-  border: solid brown 2.5px;
+  border: solid black 2px;
   font-size: large;
 }
 #show-btn {
-  margin: 2rem auto;
-  display: block;
-  height: 2.5rem;
-  text-align: center;
-  border-radius: 0.8rem;
-  width: 6rem;
-  border: solid brown 3px;
-  font-size: large;
-  background-color: #6d28d9;
+  cursor: pointer;
+  display: block inline;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  background-color: #a78bfa;
+  margin: 1rem;
+  border-top-left-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
   color: black;
-  font-weight: bold;
 }
 #result {
   font-size: 1.7rem;
   font-weight: bold;
   padding: 2rem 2rem;
-  display: contents;
-  margin-top: 1rem;
+  display: block;
+  margin: 1rem;
 }
